@@ -56,7 +56,7 @@ h1{
     transform: translateX(50%);
     width: 625px;
     padding-left: 12px;
-    padding-right: 26px;
+    padding-right: 27px;
     height: 95px;
     display: flex;
     justify-content: center;
@@ -80,6 +80,8 @@ h1{
 
 .header .header__a:nth-child(1){
     margin-right: 85px;
+    opacity: 1;
+    border-bottom: 1px solid white;
 }
 .header .header__a:nth-child(2){
     margin-right: 100px;
@@ -204,18 +206,18 @@ h1{
 .community{
     height: 504px;
     background: #F5F6F7;
-    padding: 1px;
-    padding-bottom: 20px;
+    padding: 82px 0 140px 0;
     display: flex;
     justify-content: space-between;
-    align-items:center;
+    align-items: flex-start;
 }
 
 .community .community__comment{
-    margin-left: 269px; 
+    margin-left: 270px; 
     display: flex;
     flex-direction: column;
     align-items:center;
+    margin-top: calc(55px + 18px);
 }
 
 .community .community__comment .community__comment__img{
@@ -235,7 +237,7 @@ h1{
     letter-spacing: 2.4px;
     text-transform: uppercase;
     color:var(--text-color);
-    margin-bottom: 10px;
+    margin-bottom: 11px;
 }
 
 .community .community__comment .community__comment__text{
@@ -253,12 +255,11 @@ h1{
     display: flex;
     flex-direction: column;
     align-items:center;
-    margin-bottom: 42px;
 }
 
 .slide-btn{
-    margin-bottom: 20px;
-    margin-left: 280px;
+    margin-bottom: 18px;
+    margin-left: 265px;
     width: 74px;
     padding: 2px 0;
     height: 20px;
@@ -285,8 +286,12 @@ h1{
     width: 894px;
     display: flex;
     justify-content: space-between;
-    margin-left: 15px;
-    
+    overflow: hidden;
+}
+
+.slider-item{
+    width: 407px;
+    margin-right: 30px;
 }
 
 .slider-arrow{
@@ -408,8 +413,8 @@ h1{
 }
 
 .email-section__btn__img_hover{
-    width: 21px;
-    height: 18px;
+    width: 25px;
+    height: 25px;
 }
 
 
@@ -486,7 +491,7 @@ h1{
 /* -------- */
 
 .footer{
-    height: 184px;
+    height: 185px;
     background: #000000;
     display: flex;
     padding: 60px 0 79px 0;
